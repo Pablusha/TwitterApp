@@ -3,20 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".FirstRegisterActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:src="@drawable/x_logo"
             android:scaleType="fitStart"
-            android:layout_centerHorizontal="true" />
-        
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/imgExitApp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/img_exit"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp" />
+
     </RelativeLayout>
 
 </RelativeLayout>
